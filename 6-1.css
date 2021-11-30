@@ -1,0 +1,30 @@
+.container-flex-atas, .container-flex-bawah {
+  display: flex;
+  margin-top: 20px;
+}
+
+.container-flex-atas {
+  justify-content: space-between;
+  width: 1000px;
+  flex-grow: 1;
+  gap: 30px;
+}
+
+.container-flex-bawah {
+  justify-content: space-between;
+  width: 1000px;
+  flex-grow: 5;
+  gap: 15px;
+}
+
+.img1 {
+  width: 333px;
+}
+
+.img2 {
+  width: 200px;
+}
+
+.flex-item {
+  flex-grow: 1;
+}
